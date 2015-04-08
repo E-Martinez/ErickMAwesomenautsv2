@@ -139,6 +139,7 @@ game.playerEntity = me.Entity.extend({
         if(response.b.type==="EnemyBaseEntity"){
             this.collideWithEnemyBase(response);
         }else if(response.b.type==='EnemyCreep'){
+            this.collideWithEnemyCreep(response);
         }
     },
     
