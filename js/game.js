@@ -6,8 +6,8 @@ var game = {
 	data : {
 		// score
 		score : 0,
-                enemyBaseHealth: 10,
-                playerBaseHealth: 10,
+                enemyBaseHealth: 1,
+                playerBaseHealth: 1,
                 enemyCreepHealth: 3,
                 playerHealth: 15,
                 enemyCreepAttack: 1,
